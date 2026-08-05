@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cise-red: #C0392B;
+  --color-cise-red-dark: #922B21;
+  --color-cise-charcoal: #2C3338;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
